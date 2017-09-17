@@ -3,6 +3,6 @@ An iPhone and Apple Watch App to control a 3D printed 132 RGB LED lamp writen in
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/coreyasmith35/ParticleLamp/master/images/iPhonePic.png">
-  <img src="https://raw.githubusercontent.com/coreyasmith35/ParticleLamp/master/images/watchPic.png">
+  <img height="445" width="250" src="https://raw.githubusercontent.com/coreyasmith35/ParticleLamp/master/images/iPhonePic.png">
+  <img height="80" width="80" src="https://raw.githubusercontent.com/coreyasmith35/ParticleLamp/master/images/watchPic.png">
 </p>
