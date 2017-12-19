@@ -1,0 +1,25 @@
+ParticleIntent {off|command}
+ParticleIntent {on|command}
+ParticleIntent to set brightness {brightness}
+ParticleIntent to set brightness  to {brightness}
+ParticleIntent to turn {on|command}
+ParticleIntent to turn {off|command}
+ParticleIntent to turn {red|command}
+ParticleIntent to turn {blue|command}
+ParticleIntent to turn {green|command}
+ParticleIntent to turn {white|command}
+ParticleIntent to turn {yellow|command}
+ParticleIntent to turn {purple|command}
+ParticleIntent to turn {rainbow|command}
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me
