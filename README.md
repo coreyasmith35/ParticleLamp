@@ -48,11 +48,11 @@ Filament- I opted to use PLA because it is the easiest material to print. Using 
 
 The lamp was designed using Autodesk's Fusion 360 CAD software. I design the lamp in 4 different pieces that allowed for an easy print.
 
+<img src="https://i0.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LEDLidBasic.jpg?w=1150&ssl=1">
+
 <h5>Base</h5>
  
 Made wide enough to  support the lamp and 15mm deep to house the micro controller and the starting support of the lamp core.
-
-
 
 <img src="https://i0.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LEDLidBasic.jpg?w=1150&ssl=1">
 
@@ -65,7 +65,9 @@ Just something enclose the micro controller and to help support the core.
 
 <h5>Lamp Core</h5>
 
-I design the core to hold 11 led's each and at 183mm high it can he printed on just about any 3D printer. The core can
+I design the core to hold 11 led's each and at 183mm high it can he printed on just about any 3D printer.
+
+<img src="https://i0.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LEDSleaveBasic.jpg?w=1150&ssl=1">
 
 <h5>Lamp Sleeve</h5>
 
@@ -75,15 +77,11 @@ The sleeve slides over the core and locks inside the base to support the core. A
 
 I used the <a href="https://github.com/FastLED/FastLED">FastLED</a> library to make it easy to handle addressing and assigning colors to the leds. With the FastLED library I could assign four arrays of type CRGB that would represent the four led strips. I then set up three partial cloud functions, one to change the color, another to adjust the brightness, and lastly one to deal with notifications. In addition to the cloud function I declared a partial variable so that I can see what is the status of the lamp from any device.
 
+<img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/webAPP.jpg?ssl=1">
 
 <h3>Web Application</h3>
 
-
 The goal form the beginning was to control the lamp through Alexa, but to make sure that the firmware is working perfectly I chose to make a simple web app hosted on my website so that I can access and test from anywhere.
-
-
-<img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/webAPP.jpg?ssl=1">
-
 
 <img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2016/08/alexa.jpg?w=1000&ssl=1">
 
@@ -110,7 +108,7 @@ I found my self using the web app on my phone quite regularly but it was slow. I
 <img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/lampWatchPhone.png?ssl=1">
 
  
-<h3">IFTTT Integration</h3>
+<h3>IFTTT Integration</h3>
 
 
 I configure a couple of IFTTT Applets that call the notification function on the Participle. At this moment I have only two active applets, one that flashes the lamp red when I get a personal email and anther that strobes purple when any Twitch streamer I fallow goes live. Endless possibility here due to the huge network of API's IFTTT has access to.
