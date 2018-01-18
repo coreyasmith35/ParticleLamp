@@ -91,32 +91,27 @@ The goal form the beginning was to control the lamp through Alexa, but to make s
 In order to communicate with the lamp I needed to build two things, an Alexa skill and a cloud function. The Alexa skill is hosted on the device and is responsible for sending JSON data to cloud function. I chose to utilize Amazon's lambda for ease of use with the Alexa skill. The lambda function parses the incoming JSON data and ether calls the appropriate particle cloud function or returns with and error. In the event of an error Alexa will tell the user that the command was invalid and suggest a correct command.
 
 Some things you can ask Alexa:
-
-Alexa, ask Lamp to turn blue.
-Alexa, tell Lamp to set brightness 4.
-Alexa, ask Lamp to turn off.
-Alexa, ask Lamp for help.
-
+<ul>
+  <li>Alexa, ask Lamp to turn blue.</li>
+  <li>Alexa, tell Lamp to set brightness 4.</li>
+  <li>Alexa, ask Lamp to turn off.</li>
+  <li>Alexa, ask Lamp for help.</li>
+</ul>
 </div>
 
 <h3>iOS and watchOS Application</h3>
 
-
 I found my self using the web app on my phone quite regularly but it was slow. I decided to combat this by making a native iOS application. I built this application using Swift 4. The native app speed up the process substantially.  In fact it had exceeded my expectation. I am now able to change the color of the lamp in less than a second even when the app is not in the background.  I thought why stop there, so I make a watchOS app as well  to control a few common lighting schemes.
 
+<img src="https://raw.githubusercontent.com/coreyasmith35/ParticleLamp/master/images/lampWatchPhone.png">
 
-<img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/lampWatchPhone.png?ssl=1">
-
- 
 <h3>IFTTT Integration</h3>
 
 
 I configure a couple of IFTTT Applets that call the notification function on the Participle. At this moment I have only two active applets, one that flashes the lamp red when I get a personal email and anther that strobes purple when any Twitch streamer I fallow goes live. Endless possibility here due to the huge network of API's IFTTT has access to.
-
-</div>
-
  
 <h3>References</h3>
+
 <ul>
   <li><a href="https://github.com/rlisle/alexaParticleBridge">Particle Datasheet</a> </li>
   <li><a href="https://github.com/FastLED/FastLED">FastLED</a> </li>
@@ -124,9 +119,7 @@ I configure a couple of IFTTT Applets that call the notification function on the
   <li><a href="https://developer.amazon.com/alexa">Amazon Alexa Documentation</a> </li>
   <li><a href="https://aws.amazon.com/lambda/">Amazon Lambda Documentation</a> </li>
   <li><a href="https://platform.ifttt.com/maker/guide">IFTTT Developer Documentation</a> </li>
+ </ul>
+ 
+</div>
 
-</div>
-</div>
-</div>
-</div>
-</div>
