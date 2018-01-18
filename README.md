@@ -1,12 +1,8 @@
-<div id="pl-191" class="panel-layout">
-<div id="pg-191-0" class="panel-grid panel-no-style" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;cell_alignment&quot;:&quot;flex-start&quot;}" data-ratio="0.5" data-ratio-direction="left">
+<h1>Particle Lamp</h3>
 <img src="https://i1.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LampGIF.gif?resize=270%2C250&ssl=1">
-</div>
-<div id="pgc-191-0-1" class="panel-grid-cell" data-weight="0.66666666666667">
-<div id="panel-191-0-1-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="1" data-style="{&quot;background_display&quot;:&quot;tile&quot;}">
-<h3 class="widget-title">Description</h3>
-<div class="textwidget">
 
+<h3>Description</h3>
+<div class="textwidget">
 Particle Lamp is a 3D printed internet connected smart lamp. The lamp is equipped with and WiFi enabled Arduino and 176 individually addressable RGB leds. The lamp can be controlled through may different ways including:
 <ul>
  	<li>Amazon voice assistant (Alexa)</li>
@@ -16,14 +12,9 @@ Particle Lamp is a 3D printed internet connected smart lamp. The lamp is equippe
  	<li>IFTTT Applets</li>
 </ul>
 </div>
-</div>
-</div>
-</div>
-<div id="pg-191-1" class="panel-grid panel-no-style" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;cell_alignment&quot;:&quot;flex-start&quot;}" data-ratio="0.33333333" data-ratio-direction="left">
-<div id="pgc-191-1-0" class="panel-grid-cell" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;vertical_alignment&quot;:&quot;auto&quot;}" data-weight="0.249999998125">
-<div id="panel-191-1-0-0" class="so-panel widget widget_text panel-first-child panel-last-child" data-index="2" data-style="{&quot;background_display&quot;:&quot;tile&quot;}">
-<h3 class="widget-title">Table of Contents</h3>
-<div class="textwidget">
+
+<h3>Table of Contents</h3>
+
 <ul>
  	<li>Design</li>
  	<li>The build</li>
@@ -36,16 +27,13 @@ Particle Lamp is a 3D printed internet connected smart lamp. The lamp is equippe
 </div>
 </div>
 </div>
-<div id="pgc-191-1-1" class="panel-grid-cell" data-weight="0.750000001875">
+
 <img src="https://i2.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LampMockUpCloseLights.png?ssl=1">
 </div>
 </div>
-<div id="pg-191-2" class="panel-grid panel-no-style" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;cell_alignment&quot;:&quot;flex-start&quot;}">
-<div id="pgc-191-2-0" class="panel-grid-cell" data-weight="1">
-<div id="panel-191-2-0-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="4" data-style="{&quot;background_display&quot;:&quot;tile&quot;}">
-<div class="so-widget-sow-editor so-widget-sow-editor-base">
-<h3 class="widget-title">The build</h3>
-<div class="siteorigin-widget-tinymce textwidget">
+
+<h3>The build</h3>
+
 <h4>Materials</h4>
 Particle Photon- A WiFi enable micro-controller that is compatible with Arduino IED and the Particle Cloud.
 
@@ -56,18 +44,10 @@ Power Supply- The led strip consume 18 watts/meter, the Particle uses 80mA on av
 Filament- I opted to use PLA because it is the easiest material to print. Using a black and clear color.
 
 </div>
-</div>
-</div>
-</div>
-</div>
-<div id="pg-191-3" class="panel-grid panel-no-style" data-style="{&quot;background_display&quot;:&quot;tile&quot;,&quot;cell_alignment&quot;:&quot;flex-start&quot;}" data-ratio="0.33333333" data-ratio-direction="left">
-<div id="pgc-191-3-0" class="panel-grid-cell" data-weight="0.36668927899339">
+
 <img src="https://i0.wp.com/www.coreyalexandersmith.com/wp-content/uploads/2017/12/LampMockUpCloseRender.png?w=1145&ssl=1">
-</div>
-<div id="pgc-191-3-1" class="panel-grid-cell" data-weight="0.63331072100661">
-<div id="panel-191-3-1-0" class="so-panel widget widget_sow-editor panel-first-child panel-last-child" data-index="6" data-style="{&quot;background_display&quot;:&quot;tile&quot;}">
-<div class="so-widget-sow-editor so-widget-sow-editor-base">
-<div class="siteorigin-widget-tinymce textwidget">
+
+
 <h4>Design</h4>
 The lamp was designed using Autodesk's Fusion 360 CAD software. I design the lamp in 4 different pieces that allowed for an easy print.
 
